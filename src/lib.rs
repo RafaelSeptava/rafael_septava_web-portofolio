@@ -22,16 +22,16 @@ pub fn app() -> Html {
         <div class={stylesheet}>
             <Title  title="Rafael Septava Web" profile="Profile" interest="Interest" goals="Goals" 
                     hard_skills="Hard Skills" soft_skills="Soft Skills"/>
-            <Profile    image="/images/RafaelSeptava.jpeg" 
+            <Profile    image="images/RafaelSeptava.jpeg" 
                         fullname="Rafael Putra Septava" nickname="Afel" age="20" gender="Male" 
                         profession="Software Engineering student in Telkom University Purwokerto" 
                         address="Purbalingga, Central Java, Indonesia"
                         />
-            <Interest   linux="/images/linux.png" vscode="/images/vscode.png" />
-            <Goals      arch="/images/arch.png" rust="/images/rust.png" />
+            <Interest   linux="images/linux.png" vscode="images/vscode.png" />
+            <Goals      arch="images/arch.png" rust="images/rust.png" />
             <HardSkills html="HTML" css="CSS" js="JavaScript" rust="Rust" c="C" c_plus_plus="C++"
-                        html_img="/images/html.png" css_img="/images/css.png" js_img="/images/js.png" 
-                        rust_img="/images/rust.png" c_img="/images/c.png" c_plus_plus_img="/images/c++.png" />
+                        html_img="images/html.png" css_img="images/css.png" js_img="images/js.png" 
+                        rust_img="images/rust.png" c_img="images/c.png" c_plus_plus_img="images/c++.png" />
             <SoftSkills responsibility="Responsibility" time_management="Time Management" discipline="Discipline" 
                         creativity="Creativity"  problem_solving="Problem Solving"/>
             
